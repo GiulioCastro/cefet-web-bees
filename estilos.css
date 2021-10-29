@@ -10,8 +10,16 @@ body {
     background-image: linear-gradient( 180deg, #b3d9ec, #f4ffab 20%, #71d675 );
 }
 
+img:not([alt]) {
+    border: red 1px solid;
+}
+
 p {
     text-align: justify;
+}
+
+p:last-of-type {
+    text-align: right;
 }
 
 #container-logo-marca {
@@ -47,7 +55,29 @@ p {
     float: left;
     margin-right: 20px;
 }
+
 .casta-de-abelha.direita {
     float: right;
     margin-left: 20px;
+}
+
+a:link {
+    color: purple;
+    text-decoration: none
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a[href^="http"] {
+    background-color: #d3d3d3;
 }
