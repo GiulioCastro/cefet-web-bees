@@ -31,3 +31,17 @@ p {
     float: left;
     margin-right: 20px;
 }
+
+.casta-de-abelha {
+    border-radius: 50%;
+    border: #f89e09 5px solid;
+}
+
+.casta-de-abelha.esquerda {
+    float: left;
+    margin-right: 20px;
+}
+.casta-de-abelha.direita {
+    float: right;
+    margin-left: 20px;
+}
