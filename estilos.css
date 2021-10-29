@@ -61,6 +61,10 @@ p:last-of-type {
     margin-left: 20px;
 }
 
+#cancelar-flutuacao-esquerda {
+    clear: left;
+}
+
 a:link {
     color: purple;
     text-decoration: none
